@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Link from "next/link"
 import { Spotlight } from "./ui/Spotlight"
 import { Button } from "./ui/moving-border";
@@ -9,7 +10,7 @@ function HeroSection() {
     >
         <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20"
-        fill="white"
+        fill="#E178C5"
       />
         <div className="p-4 relative z-10 w-full text-center" >
             <h1
